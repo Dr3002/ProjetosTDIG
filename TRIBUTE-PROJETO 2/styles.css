@@ -1,0 +1,49 @@
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#title,#img-caption{
+  text-align:center;
+}
+
+#title{
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+#img-caption{
+  color:white;
+  font-size:medium;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#tribute-info{
+    text-align:center;
+}
+
+#timeline{
+  font-size:300%;
+  font-family: Helvetica, sans-serif;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
