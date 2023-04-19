@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <h1 id="title" class="text-center">Formulário de Pesquisa freeCodeCamp</h1>
+      <p id="description" class="text-center">
+Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</p>
+  <form id="survey-form" class="form">
+<fieldset class="form-group">
+        <label id="name-label"> Name:<input id="name" placeholder="insira seu nome" class="form-control" required></label>
+        <label id="email-label"> Email:<input id="email" type="email" placeholder="insira seu email" class="form-control" required></label>
+        <label id="number-label"> idade:<input id="number" type="number" min="13" max="120" placeholder=" insira sua idade" class="form-control"></label>
+</fieldset>
+
+<fieldset class="form-group">
+        <label>Qual opção melhor descreve sua função atual?<label>
+        <select id="dropdown" class="form-control" required>
+    <option value="0">(selecione um)</option>
+    <option value="1">Estudante</option>
+    <option value="2">Trabalhador</option>
+  </select>
+</fieldset>
+
+<fieldset class="form-group">
+  <label>Você recomendaria o freeCodeCamp a um amigo?</label>
+  <label for="defi"><input id="defi" type="radio" name="account-type" class="inline" value="3" /> Definitivamente</label>
+  <label for="talv"><input id="talv" type="radio" name="account-type" class="inline" value="4" /> Talvez</label>
+  <label for="nsure"><input id="nsure" type="radio" name="account-type" class="inline" value="5" /> Não Tenho Certeza</label>
+</fieldset>
+
+<fieldset class="form-group">
+  <label>O que você gostaria de ver melhorado? (Marque todos os que se aplicam)</label>
+  <label class="container"><input value="front-project" type="checkbox" class="check-box">Front-end Projects<label>
+  <label class="container"><input value="back-project" type="checkbox" class="check-box">Back-end Projects<label>
+</fieldset>
+
+<fieldset class="form-group">
+  <label>Sugestões:<textarea class="form-control"></textarea></label>
+</fieldset>
+
+</fieldset>
+  <input type="submit" id="submit-button" class="submit-button" />
+  </form>
+
+    </body>
+</html>
